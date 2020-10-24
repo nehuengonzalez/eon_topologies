@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<network description="COST 266 network with 37 nodes and 114 unidirectional links, including a demand set. All links capacities are set to the same value so that no link becomes over-subscribed under shortest-path routing (measured in km)&#xa;&#xa;Source: SNDLib" name="COST 266 Network" version="5" nextElementId="4867655">
+	<node id="4867648" xCoord="90.79779215271812" yCoord="4.672706850877184" name="0" population="0.0" isUp="true" layersWithIconsDefined="">
+	</node>
+	<node id="4867649" xCoord="38.52209216129909" yCoord="9.466173497165698" name="1" population="0.0" isUp="true" layersWithIconsDefined="">
+	</node>
+	<node id="4867650" xCoord="42.59183550801778" yCoord="55.484883705719604" name="2" population="0.0" isUp="true" layersWithIconsDefined="">
+	</node>
+	<layer id="1" name="Optical" description="" isDefaultLayer="true" linkCapacityUnitsName="" demandTrafficUnitsName="">
+		<link id="4867651" originNodeId="4867648" destinationNodeId="4867649" capacity="320.0" lengthInKm="300.0" bidirectionalPairId="4867652" propagationSpeedInKmPerSecond="200000.0" isUp="true">
+		</link>
+		<link id="4867652" originNodeId="4867649" destinationNodeId="4867648" capacity="320.0" lengthInKm="300.0" bidirectionalPairId="4867651" propagationSpeedInKmPerSecond="200000.0" isUp="true">
+		</link>
+		<link id="4867653" originNodeId="4867649" destinationNodeId="4867650" capacity="320.0" lengthInKm="300.0" bidirectionalPairId="4867654" propagationSpeedInKmPerSecond="200000.0" isUp="true">
+		</link>
+		<link id="4867654" originNodeId="4867650" destinationNodeId="4867649" capacity="320.0" lengthInKm="300.0" bidirectionalPairId="4867653" propagationSpeedInKmPerSecond="200000.0" isUp="true">
+		</link>
+		<sourceRouting>
+		</sourceRouting>
+	</layer>
+	<layer id="4495" name="Digital" description="" isDefaultLayer="false" linkCapacityUnitsName="" demandTrafficUnitsName="">
+		<sourceRouting>
+		</sourceRouting>
+	</layer>
+	<attribute key="alpha" value="0.2"/>
+	<attribute key="beta" value="17"/>
+	<attribute key="clientBitRateStep" value="100"/>
+	<attribute key="gamma" value="1.2"/>
+	<attribute key="lineFECOverhead" value="25"/>
+	<attribute key="maxSymbolRate" value="50"/>
+	<attribute key="modulationFormats" value="BPSK QPSK 8QAM 16QAM 32QAM 64QAM"/>
+	<attribute key="noiseFigure" value="5"/>
+	<attribute key="spanLength" value="80"/>
+	<attribute key="spectrumSlots" value="320"/>
+	<attribute key="targetLineBER" value="1e-2"/>
+</network>

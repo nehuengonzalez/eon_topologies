@@ -1,0 +1,90 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<network description="COST 266 network with 37 nodes and 114 unidirectional links, including a demand set. All links capacities are set to the same value so that no link becomes over-subscribed under shortest-path routing (measured in km)&#xa;&#xa;Source: SNDLib" name="COST 266 Network" version="5" nextElementId="848015859">
+	<node id="848015825" xCoord="77.57409319382369" yCoord="94.19582995759976" name="0" population="0.0" isUp="true" layersWithIconsDefined="">
+	</node>
+	<node id="848015826" xCoord="98.70224140684572" yCoord="70.77566423998229" name="1" population="0.0" isUp="true" layersWithIconsDefined="">
+	</node>
+	<node id="848015827" xCoord="90.89622521879193" yCoord="91.05832859134087" name="2" population="0.0" isUp="true" layersWithIconsDefined="">
+	</node>
+	<node id="848015828" xCoord="50.38331739120881" yCoord="45.623104531489965" name="3" population="0.0" isUp="true" layersWithIconsDefined="">
+	</node>
+	<node id="848015829" xCoord="53.1815963362022" yCoord="70.6817962223649" name="4" population="0.0" isUp="true" layersWithIconsDefined="">
+	</node>
+	<node id="848015830" xCoord="81.57099736429988" yCoord="46.31444766590781" name="5" population="0.0" isUp="true" layersWithIconsDefined="">
+	</node>
+	<node id="848015831" xCoord="79.90062311224338" yCoord="72.8010122595516" name="6" population="0.0" isUp="true" layersWithIconsDefined="">
+	</node>
+	<node id="848015832" xCoord="7.994214310433135" yCoord="92.847159156279" name="7" population="0.0" isUp="true" layersWithIconsDefined="">
+	</node>
+	<node id="848015833" xCoord="24.25415164200373" yCoord="57.31075032520722" name="8" population="0.0" isUp="true" layersWithIconsDefined="">
+	</node>
+	<node id="848015834" xCoord="70.01944712070845" yCoord="79.69686225255079" name="9" population="0.0" isUp="true" layersWithIconsDefined="">
+	</node>
+	<node id="848015835" xCoord="43.85546141232983" yCoord="55.53508849346444" name="10" population="0.0" isUp="true" layersWithIconsDefined="">
+	</node>
+	<node id="848015836" xCoord="59.10581856703031" yCoord="22.428382780308553" name="11" population="0.0" isUp="true" layersWithIconsDefined="">
+	</node>
+	<layer id="1" name="Optical" description="" isDefaultLayer="true" linkCapacityUnitsName="" demandTrafficUnitsName="">
+		<link id="848015837" originNodeId="848015825" destinationNodeId="848015826" capacity="320.0" lengthInKm="300.0" bidirectionalPairId="848015838" propagationSpeedInKmPerSecond="200000.0" isUp="true">
+		</link>
+		<link id="848015838" originNodeId="848015826" destinationNodeId="848015825" capacity="320.0" lengthInKm="300.0" bidirectionalPairId="848015837" propagationSpeedInKmPerSecond="200000.0" isUp="true">
+		</link>
+		<link id="848015839" originNodeId="848015826" destinationNodeId="848015827" capacity="320.0" lengthInKm="300.0" bidirectionalPairId="848015840" propagationSpeedInKmPerSecond="200000.0" isUp="true">
+		</link>
+		<link id="848015840" originNodeId="848015827" destinationNodeId="848015826" capacity="320.0" lengthInKm="300.0" bidirectionalPairId="848015839" propagationSpeedInKmPerSecond="200000.0" isUp="true">
+		</link>
+		<link id="848015841" originNodeId="848015827" destinationNodeId="848015828" capacity="320.0" lengthInKm="300.0" bidirectionalPairId="848015842" propagationSpeedInKmPerSecond="200000.0" isUp="true">
+		</link>
+		<link id="848015842" originNodeId="848015828" destinationNodeId="848015827" capacity="320.0" lengthInKm="300.0" bidirectionalPairId="848015841" propagationSpeedInKmPerSecond="200000.0" isUp="true">
+		</link>
+		<link id="848015843" originNodeId="848015828" destinationNodeId="848015829" capacity="320.0" lengthInKm="300.0" bidirectionalPairId="848015844" propagationSpeedInKmPerSecond="200000.0" isUp="true">
+		</link>
+		<link id="848015844" originNodeId="848015829" destinationNodeId="848015828" capacity="320.0" lengthInKm="300.0" bidirectionalPairId="848015843" propagationSpeedInKmPerSecond="200000.0" isUp="true">
+		</link>
+		<link id="848015845" originNodeId="848015829" destinationNodeId="848015830" capacity="320.0" lengthInKm="300.0" bidirectionalPairId="848015846" propagationSpeedInKmPerSecond="200000.0" isUp="true">
+		</link>
+		<link id="848015846" originNodeId="848015830" destinationNodeId="848015829" capacity="320.0" lengthInKm="300.0" bidirectionalPairId="848015845" propagationSpeedInKmPerSecond="200000.0" isUp="true">
+		</link>
+		<link id="848015847" originNodeId="848015830" destinationNodeId="848015831" capacity="320.0" lengthInKm="300.0" bidirectionalPairId="848015848" propagationSpeedInKmPerSecond="200000.0" isUp="true">
+		</link>
+		<link id="848015848" originNodeId="848015831" destinationNodeId="848015830" capacity="320.0" lengthInKm="300.0" bidirectionalPairId="848015847" propagationSpeedInKmPerSecond="200000.0" isUp="true">
+		</link>
+		<link id="848015849" originNodeId="848015831" destinationNodeId="848015832" capacity="320.0" lengthInKm="300.0" bidirectionalPairId="848015850" propagationSpeedInKmPerSecond="200000.0" isUp="true">
+		</link>
+		<link id="848015850" originNodeId="848015832" destinationNodeId="848015831" capacity="320.0" lengthInKm="300.0" bidirectionalPairId="848015849" propagationSpeedInKmPerSecond="200000.0" isUp="true">
+		</link>
+		<link id="848015851" originNodeId="848015832" destinationNodeId="848015833" capacity="320.0" lengthInKm="300.0" bidirectionalPairId="848015852" propagationSpeedInKmPerSecond="200000.0" isUp="true">
+		</link>
+		<link id="848015852" originNodeId="848015833" destinationNodeId="848015832" capacity="320.0" lengthInKm="300.0" bidirectionalPairId="848015851" propagationSpeedInKmPerSecond="200000.0" isUp="true">
+		</link>
+		<link id="848015853" originNodeId="848015833" destinationNodeId="848015834" capacity="320.0" lengthInKm="300.0" bidirectionalPairId="848015854" propagationSpeedInKmPerSecond="200000.0" isUp="true">
+		</link>
+		<link id="848015854" originNodeId="848015834" destinationNodeId="848015833" capacity="320.0" lengthInKm="300.0" bidirectionalPairId="848015853" propagationSpeedInKmPerSecond="200000.0" isUp="true">
+		</link>
+		<link id="848015855" originNodeId="848015834" destinationNodeId="848015835" capacity="320.0" lengthInKm="300.0" bidirectionalPairId="848015856" propagationSpeedInKmPerSecond="200000.0" isUp="true">
+		</link>
+		<link id="848015856" originNodeId="848015835" destinationNodeId="848015834" capacity="320.0" lengthInKm="300.0" bidirectionalPairId="848015855" propagationSpeedInKmPerSecond="200000.0" isUp="true">
+		</link>
+		<link id="848015857" originNodeId="848015835" destinationNodeId="848015836" capacity="320.0" lengthInKm="300.0" bidirectionalPairId="848015858" propagationSpeedInKmPerSecond="200000.0" isUp="true">
+		</link>
+		<link id="848015858" originNodeId="848015836" destinationNodeId="848015835" capacity="320.0" lengthInKm="300.0" bidirectionalPairId="848015857" propagationSpeedInKmPerSecond="200000.0" isUp="true">
+		</link>
+		<sourceRouting>
+		</sourceRouting>
+	</layer>
+	<layer id="4495" name="Digital" description="" isDefaultLayer="false" linkCapacityUnitsName="" demandTrafficUnitsName="">
+		<sourceRouting>
+		</sourceRouting>
+	</layer>
+	<attribute key="alpha" value="0.2"/>
+	<attribute key="beta" value="17"/>
+	<attribute key="clientBitRateStep" value="100"/>
+	<attribute key="gamma" value="1.2"/>
+	<attribute key="lineFECOverhead" value="25"/>
+	<attribute key="maxSymbolRate" value="50"/>
+	<attribute key="modulationFormats" value="BPSK QPSK 8QAM 16QAM 32QAM 64QAM"/>
+	<attribute key="noiseFigure" value="5"/>
+	<attribute key="spanLength" value="80"/>
+	<attribute key="spectrumSlots" value="320"/>
+	<attribute key="targetLineBER" value="1e-2"/>
+</network>

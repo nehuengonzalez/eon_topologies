@@ -1,0 +1,242 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<network description="COST 266 network with 37 nodes and 114 unidirectional links, including a demand set. All links capacities are set to the same value so that no link becomes over-subscribed under shortest-path routing (measured in km)&#xa;&#xa;Source: SNDLib" name="COST 266 Network" version="5" nextElementId="4867759">
+	<node id="4867649" xCoord="14.874811465596194" yCoord="51.80672092011783" name="1" population="0.0" isUp="true" layersWithIconsDefined="">
+	</node>
+	<node id="4867650" xCoord="60.012828595379865" yCoord="9.858182424781825" name="2" population="0.0" isUp="true" layersWithIconsDefined="">
+	</node>
+	<node id="4867651" xCoord="24.760260570645777" yCoord="18.66312991575112" name="3" population="0.0" isUp="true" layersWithIconsDefined="">
+	</node>
+	<node id="4867652" xCoord="33.8293646940936" yCoord="99.76657522410142" name="4" population="0.0" isUp="true" layersWithIconsDefined="">
+	</node>
+	<node id="4867653" xCoord="99.3055692762446" yCoord="20.435227165698933" name="5" population="0.0" isUp="true" layersWithIconsDefined="">
+	</node>
+	<node id="4867654" xCoord="29.267521210586533" yCoord="71.36785815711666" name="6" population="0.0" isUp="true" layersWithIconsDefined="">
+	</node>
+	<node id="4867655" xCoord="79.67595210886141" yCoord="90.16787091945598" name="7" population="0.0" isUp="true" layersWithIconsDefined="">
+	</node>
+	<node id="4867656" xCoord="71.79109158198547" yCoord="2.7745872400149696" name="8" population="0.0" isUp="true" layersWithIconsDefined="">
+	</node>
+	<node id="4867657" xCoord="29.065147606996465" yCoord="0.3261842085882316" name="9" population="0.0" isUp="true" layersWithIconsDefined="">
+	</node>
+	<node id="4867658" xCoord="48.69028374556629" yCoord="57.27589161387261" name="10" population="0.0" isUp="true" layersWithIconsDefined="">
+	</node>
+	<node id="4867659" xCoord="72.45491650751204" yCoord="40.60199934467376" name="11" population="0.0" isUp="true" layersWithIconsDefined="">
+	</node>
+	<node id="4867660" xCoord="32.02608089901495" yCoord="48.801533158128244" name="12" population="0.0" isUp="true" layersWithIconsDefined="">
+	</node>
+	<node id="4867661" xCoord="27.049223146358216" yCoord="43.75965184930452" name="13" population="0.0" isUp="true" layersWithIconsDefined="">
+	</node>
+	<node id="4867662" xCoord="26.418297716379335" yCoord="15.827192531869317" name="14" population="0.0" isUp="true" layersWithIconsDefined="">
+	</node>
+	<node id="4867663" xCoord="28.659594618808327" yCoord="21.364985577384576" name="15" population="0.0" isUp="true" layersWithIconsDefined="">
+	</node>
+	<node id="4867664" xCoord="55.59638110189938" yCoord="98.0356212481584" name="16" population="0.0" isUp="true" layersWithIconsDefined="">
+	</node>
+	<node id="4867665" xCoord="2.3845487227074136" yCoord="43.21410783237105" name="17" population="0.0" isUp="true" layersWithIconsDefined="">
+	</node>
+	<node id="4867666" xCoord="8.760961880939078" yCoord="8.583327342576307" name="18" population="0.0" isUp="true" layersWithIconsDefined="">
+	</node>
+	<node id="4867667" xCoord="22.117398908553476" yCoord="44.37604646735287" name="19" population="0.0" isUp="true" layersWithIconsDefined="">
+	</node>
+	<node id="4867668" xCoord="78.05800999093081" yCoord="21.482745940853587" name="20" population="0.0" isUp="true" layersWithIconsDefined="">
+	</node>
+	<node id="4867669" xCoord="52.73313171852635" yCoord="71.98620701427562" name="21" population="0.0" isUp="true" layersWithIconsDefined="">
+	</node>
+	<node id="4867670" xCoord="31.846398302533373" yCoord="48.394869981725044" name="22" population="0.0" isUp="true" layersWithIconsDefined="">
+	</node>
+	<node id="4867671" xCoord="71.24648997912449" yCoord="90.27506852884112" name="23" population="0.0" isUp="true" layersWithIconsDefined="">
+	</node>
+	<node id="4867672" xCoord="84.94354545700482" yCoord="62.03761248142655" name="24" population="0.0" isUp="true" layersWithIconsDefined="">
+	</node>
+	<layer id="1" name="Optical" description="" isDefaultLayer="true" linkCapacityUnitsName="" demandTrafficUnitsName="">
+		<link id="4867673" originNodeId="4867649" destinationNodeId="4867650" capacity="320.0" lengthInKm="800.0" bidirectionalPairId="4867674" propagationSpeedInKmPerSecond="200000.0" isUp="true">
+		</link>
+		<link id="4867674" originNodeId="4867650" destinationNodeId="4867649" capacity="320.0" lengthInKm="800.0" bidirectionalPairId="4867673" propagationSpeedInKmPerSecond="200000.0" isUp="true">
+		</link>
+		<link id="4867675" originNodeId="4867649" destinationNodeId="4867654" capacity="320.0" lengthInKm="1000.0" bidirectionalPairId="4867676" propagationSpeedInKmPerSecond="200000.0" isUp="true">
+		</link>
+		<link id="4867676" originNodeId="4867654" destinationNodeId="4867649" capacity="320.0" lengthInKm="1000.0" bidirectionalPairId="4867675" propagationSpeedInKmPerSecond="200000.0" isUp="true">
+		</link>
+		<link id="4867677" originNodeId="4867650" destinationNodeId="4867651" capacity="320.0" lengthInKm="1100.0" bidirectionalPairId="4867678" propagationSpeedInKmPerSecond="200000.0" isUp="true">
+		</link>
+		<link id="4867678" originNodeId="4867651" destinationNodeId="4867650" capacity="320.0" lengthInKm="1100.0" bidirectionalPairId="4867677" propagationSpeedInKmPerSecond="200000.0" isUp="true">
+		</link>
+		<link id="4867679" originNodeId="4867650" destinationNodeId="4867654" capacity="320.0" lengthInKm="950.0" bidirectionalPairId="4867680" propagationSpeedInKmPerSecond="200000.0" isUp="true">
+		</link>
+		<link id="4867680" originNodeId="4867654" destinationNodeId="4867650" capacity="320.0" lengthInKm="950.0" bidirectionalPairId="4867679" propagationSpeedInKmPerSecond="200000.0" isUp="true">
+		</link>
+		<link id="4867681" originNodeId="4867651" destinationNodeId="4867652" capacity="320.0" lengthInKm="250.0" bidirectionalPairId="4867682" propagationSpeedInKmPerSecond="200000.0" isUp="true">
+		</link>
+		<link id="4867682" originNodeId="4867652" destinationNodeId="4867651" capacity="320.0" lengthInKm="250.0" bidirectionalPairId="4867681" propagationSpeedInKmPerSecond="200000.0" isUp="true">
+		</link>
+		<link id="4867683" originNodeId="4867651" destinationNodeId="4867653" capacity="320.0" lengthInKm="1100.0" bidirectionalPairId="4867684" propagationSpeedInKmPerSecond="200000.0" isUp="true">
+		</link>
+		<link id="4867684" originNodeId="4867653" destinationNodeId="4867651" capacity="320.0" lengthInKm="1100.0" bidirectionalPairId="4867683" propagationSpeedInKmPerSecond="200000.0" isUp="true">
+		</link>
+		<link id="4867685" originNodeId="4867651" destinationNodeId="4867655" capacity="320.0" lengthInKm="1000.0" bidirectionalPairId="4867686" propagationSpeedInKmPerSecond="200000.0" isUp="true">
+		</link>
+		<link id="4867686" originNodeId="4867655" destinationNodeId="4867651" capacity="320.0" lengthInKm="1000.0" bidirectionalPairId="4867685" propagationSpeedInKmPerSecond="200000.0" isUp="true">
+		</link>
+		<link id="4867687" originNodeId="4867652" destinationNodeId="4867653" capacity="320.0" lengthInKm="800.0" bidirectionalPairId="4867688" propagationSpeedInKmPerSecond="200000.0" isUp="true">
+		</link>
+		<link id="4867688" originNodeId="4867653" destinationNodeId="4867652" capacity="320.0" lengthInKm="800.0" bidirectionalPairId="4867687" propagationSpeedInKmPerSecond="200000.0" isUp="true">
+		</link>
+		<link id="4867689" originNodeId="4867652" destinationNodeId="4867655" capacity="320.0" lengthInKm="850.0" bidirectionalPairId="4867690" propagationSpeedInKmPerSecond="200000.0" isUp="true">
+		</link>
+		<link id="4867690" originNodeId="4867655" destinationNodeId="4867652" capacity="320.0" lengthInKm="850.0" bidirectionalPairId="4867689" propagationSpeedInKmPerSecond="200000.0" isUp="true">
+		</link>
+		<link id="4867691" originNodeId="4867653" destinationNodeId="4867656" capacity="320.0" lengthInKm="1200.0" bidirectionalPairId="4867692" propagationSpeedInKmPerSecond="200000.0" isUp="true">
+		</link>
+		<link id="4867692" originNodeId="4867656" destinationNodeId="4867653" capacity="320.0" lengthInKm="1200.0" bidirectionalPairId="4867691" propagationSpeedInKmPerSecond="200000.0" isUp="true">
+		</link>
+		<link id="4867693" originNodeId="4867654" destinationNodeId="4867655" capacity="320.0" lengthInKm="1000.0" bidirectionalPairId="4867694" propagationSpeedInKmPerSecond="200000.0" isUp="true">
+		</link>
+		<link id="4867694" originNodeId="4867655" destinationNodeId="4867654" capacity="320.0" lengthInKm="1000.0" bidirectionalPairId="4867693" propagationSpeedInKmPerSecond="200000.0" isUp="true">
+		</link>
+		<link id="4867695" originNodeId="4867654" destinationNodeId="4867657" capacity="320.0" lengthInKm="1200.0" bidirectionalPairId="4867696" propagationSpeedInKmPerSecond="200000.0" isUp="true">
+		</link>
+		<link id="4867696" originNodeId="4867657" destinationNodeId="4867654" capacity="320.0" lengthInKm="1200.0" bidirectionalPairId="4867695" propagationSpeedInKmPerSecond="200000.0" isUp="true">
+		</link>
+		<link id="4867697" originNodeId="4867654" destinationNodeId="4867659" capacity="320.0" lengthInKm="1900.0" bidirectionalPairId="4867698" propagationSpeedInKmPerSecond="200000.0" isUp="true">
+		</link>
+		<link id="4867698" originNodeId="4867659" destinationNodeId="4867654" capacity="320.0" lengthInKm="1900.0" bidirectionalPairId="4867697" propagationSpeedInKmPerSecond="200000.0" isUp="true">
+		</link>
+		<link id="4867699" originNodeId="4867655" destinationNodeId="4867656" capacity="320.0" lengthInKm="1150.0" bidirectionalPairId="4867700" propagationSpeedInKmPerSecond="200000.0" isUp="true">
+		</link>
+		<link id="4867700" originNodeId="4867656" destinationNodeId="4867655" capacity="320.0" lengthInKm="1150.0" bidirectionalPairId="4867699" propagationSpeedInKmPerSecond="200000.0" isUp="true">
+		</link>
+		<link id="4867701" originNodeId="4867655" destinationNodeId="4867657" capacity="320.0" lengthInKm="1000.0" bidirectionalPairId="4867702" propagationSpeedInKmPerSecond="200000.0" isUp="true">
+		</link>
+		<link id="4867702" originNodeId="4867657" destinationNodeId="4867655" capacity="320.0" lengthInKm="1000.0" bidirectionalPairId="4867701" propagationSpeedInKmPerSecond="200000.0" isUp="true">
+		</link>
+		<link id="4867703" originNodeId="4867656" destinationNodeId="4867658" capacity="320.0" lengthInKm="900.0" bidirectionalPairId="4867704" propagationSpeedInKmPerSecond="200000.0" isUp="true">
+		</link>
+		<link id="4867704" originNodeId="4867658" destinationNodeId="4867656" capacity="320.0" lengthInKm="900.0" bidirectionalPairId="4867703" propagationSpeedInKmPerSecond="200000.0" isUp="true">
+		</link>
+		<link id="4867705" originNodeId="4867657" destinationNodeId="4867658" capacity="320.0" lengthInKm="1000.0" bidirectionalPairId="4867706" propagationSpeedInKmPerSecond="200000.0" isUp="true">
+		</link>
+		<link id="4867706" originNodeId="4867658" destinationNodeId="4867657" capacity="320.0" lengthInKm="1000.0" bidirectionalPairId="4867705" propagationSpeedInKmPerSecond="200000.0" isUp="true">
+		</link>
+		<link id="4867707" originNodeId="4867657" destinationNodeId="4867659" capacity="320.0" lengthInKm="1400.0" bidirectionalPairId="4867708" propagationSpeedInKmPerSecond="200000.0" isUp="true">
+		</link>
+		<link id="4867708" originNodeId="4867659" destinationNodeId="4867657" capacity="320.0" lengthInKm="1400.0" bidirectionalPairId="4867707" propagationSpeedInKmPerSecond="200000.0" isUp="true">
+		</link>
+		<link id="4867709" originNodeId="4867657" destinationNodeId="4867660" capacity="320.0" lengthInKm="1000.0" bidirectionalPairId="4867710" propagationSpeedInKmPerSecond="200000.0" isUp="true">
+		</link>
+		<link id="4867710" originNodeId="4867660" destinationNodeId="4867657" capacity="320.0" lengthInKm="1000.0" bidirectionalPairId="4867709" propagationSpeedInKmPerSecond="200000.0" isUp="true">
+		</link>
+		<link id="4867711" originNodeId="4867658" destinationNodeId="4867661" capacity="320.0" lengthInKm="950.0" bidirectionalPairId="4867712" propagationSpeedInKmPerSecond="200000.0" isUp="true">
+		</link>
+		<link id="4867712" originNodeId="4867661" destinationNodeId="4867658" capacity="320.0" lengthInKm="950.0" bidirectionalPairId="4867711" propagationSpeedInKmPerSecond="200000.0" isUp="true">
+		</link>
+		<link id="4867713" originNodeId="4867658" destinationNodeId="4867662" capacity="320.0" lengthInKm="850.0" bidirectionalPairId="4867714" propagationSpeedInKmPerSecond="200000.0" isUp="true">
+		</link>
+		<link id="4867714" originNodeId="4867662" destinationNodeId="4867658" capacity="320.0" lengthInKm="850.0" bidirectionalPairId="4867713" propagationSpeedInKmPerSecond="200000.0" isUp="true">
+		</link>
+		<link id="4867715" originNodeId="4867659" destinationNodeId="4867660" capacity="320.0" lengthInKm="900.0" bidirectionalPairId="4867716" propagationSpeedInKmPerSecond="200000.0" isUp="true">
+		</link>
+		<link id="4867716" originNodeId="4867660" destinationNodeId="4867659" capacity="320.0" lengthInKm="900.0" bidirectionalPairId="4867715" propagationSpeedInKmPerSecond="200000.0" isUp="true">
+		</link>
+		<link id="4867717" originNodeId="4867659" destinationNodeId="4867663" capacity="320.0" lengthInKm="1300.0" bidirectionalPairId="4867718" propagationSpeedInKmPerSecond="200000.0" isUp="true">
+		</link>
+		<link id="4867718" originNodeId="4867663" destinationNodeId="4867659" capacity="320.0" lengthInKm="1300.0" bidirectionalPairId="4867717" propagationSpeedInKmPerSecond="200000.0" isUp="true">
+		</link>
+		<link id="4867719" originNodeId="4867659" destinationNodeId="4867667" capacity="320.0" lengthInKm="2600.0" bidirectionalPairId="4867720" propagationSpeedInKmPerSecond="200000.0" isUp="true">
+		</link>
+		<link id="4867720" originNodeId="4867667" destinationNodeId="4867659" capacity="320.0" lengthInKm="2600.0" bidirectionalPairId="4867719" propagationSpeedInKmPerSecond="200000.0" isUp="true">
+		</link>
+		<link id="4867721" originNodeId="4867660" destinationNodeId="4867661" capacity="320.0" lengthInKm="900.0" bidirectionalPairId="4867722" propagationSpeedInKmPerSecond="200000.0" isUp="true">
+		</link>
+		<link id="4867722" originNodeId="4867661" destinationNodeId="4867660" capacity="320.0" lengthInKm="900.0" bidirectionalPairId="4867721" propagationSpeedInKmPerSecond="200000.0" isUp="true">
+		</link>
+		<link id="4867723" originNodeId="4867660" destinationNodeId="4867664" capacity="320.0" lengthInKm="1000.0" bidirectionalPairId="4867724" propagationSpeedInKmPerSecond="200000.0" isUp="true">
+		</link>
+		<link id="4867724" originNodeId="4867664" destinationNodeId="4867660" capacity="320.0" lengthInKm="1000.0" bidirectionalPairId="4867723" propagationSpeedInKmPerSecond="200000.0" isUp="true">
+		</link>
+		<link id="4867725" originNodeId="4867661" destinationNodeId="4867662" capacity="320.0" lengthInKm="650.0" bidirectionalPairId="4867726" propagationSpeedInKmPerSecond="200000.0" isUp="true">
+		</link>
+		<link id="4867726" originNodeId="4867662" destinationNodeId="4867661" capacity="320.0" lengthInKm="650.0" bidirectionalPairId="4867725" propagationSpeedInKmPerSecond="200000.0" isUp="true">
+		</link>
+		<link id="4867727" originNodeId="4867661" destinationNodeId="4867665" capacity="320.0" lengthInKm="1100.0" bidirectionalPairId="4867728" propagationSpeedInKmPerSecond="200000.0" isUp="true">
+		</link>
+		<link id="4867728" originNodeId="4867665" destinationNodeId="4867661" capacity="320.0" lengthInKm="1100.0" bidirectionalPairId="4867727" propagationSpeedInKmPerSecond="200000.0" isUp="true">
+		</link>
+		<link id="4867729" originNodeId="4867662" destinationNodeId="4867666" capacity="320.0" lengthInKm="1200.0" bidirectionalPairId="4867730" propagationSpeedInKmPerSecond="200000.0" isUp="true">
+		</link>
+		<link id="4867730" originNodeId="4867666" destinationNodeId="4867662" capacity="320.0" lengthInKm="1200.0" bidirectionalPairId="4867729" propagationSpeedInKmPerSecond="200000.0" isUp="true">
+		</link>
+		<link id="4867731" originNodeId="4867663" destinationNodeId="4867664" capacity="320.0" lengthInKm="600.0" bidirectionalPairId="4867732" propagationSpeedInKmPerSecond="200000.0" isUp="true">
+		</link>
+		<link id="4867732" originNodeId="4867664" destinationNodeId="4867663" capacity="320.0" lengthInKm="600.0" bidirectionalPairId="4867731" propagationSpeedInKmPerSecond="200000.0" isUp="true">
+		</link>
+		<link id="4867733" originNodeId="4867663" destinationNodeId="4867668" capacity="320.0" lengthInKm="1300.0" bidirectionalPairId="4867734" propagationSpeedInKmPerSecond="200000.0" isUp="true">
+		</link>
+		<link id="4867734" originNodeId="4867668" destinationNodeId="4867663" capacity="320.0" lengthInKm="1300.0" bidirectionalPairId="4867733" propagationSpeedInKmPerSecond="200000.0" isUp="true">
+		</link>
+		<link id="4867735" originNodeId="4867664" destinationNodeId="4867665" capacity="320.0" lengthInKm="1000.0" bidirectionalPairId="4867736" propagationSpeedInKmPerSecond="200000.0" isUp="true">
+		</link>
+		<link id="4867736" originNodeId="4867665" destinationNodeId="4867664" capacity="320.0" lengthInKm="1000.0" bidirectionalPairId="4867735" propagationSpeedInKmPerSecond="200000.0" isUp="true">
+		</link>
+		<link id="4867737" originNodeId="4867664" destinationNodeId="4867669" capacity="320.0" lengthInKm="1000.0" bidirectionalPairId="4867738" propagationSpeedInKmPerSecond="200000.0" isUp="true">
+		</link>
+		<link id="4867738" originNodeId="4867669" destinationNodeId="4867664" capacity="320.0" lengthInKm="1000.0" bidirectionalPairId="4867737" propagationSpeedInKmPerSecond="200000.0" isUp="true">
+		</link>
+		<link id="4867739" originNodeId="4867664" destinationNodeId="4867670" capacity="320.0" lengthInKm="800.0" bidirectionalPairId="4867740" propagationSpeedInKmPerSecond="200000.0" isUp="true">
+		</link>
+		<link id="4867740" originNodeId="4867670" destinationNodeId="4867664" capacity="320.0" lengthInKm="800.0" bidirectionalPairId="4867739" propagationSpeedInKmPerSecond="200000.0" isUp="true">
+		</link>
+		<link id="4867741" originNodeId="4867665" destinationNodeId="4867666" capacity="320.0" lengthInKm="800.0" bidirectionalPairId="4867742" propagationSpeedInKmPerSecond="200000.0" isUp="true">
+		</link>
+		<link id="4867742" originNodeId="4867666" destinationNodeId="4867665" capacity="320.0" lengthInKm="800.0" bidirectionalPairId="4867741" propagationSpeedInKmPerSecond="200000.0" isUp="true">
+		</link>
+		<link id="4867743" originNodeId="4867665" destinationNodeId="4867670" capacity="320.0" lengthInKm="850.0" bidirectionalPairId="4867744" propagationSpeedInKmPerSecond="200000.0" isUp="true">
+		</link>
+		<link id="4867744" originNodeId="4867670" destinationNodeId="4867665" capacity="320.0" lengthInKm="850.0" bidirectionalPairId="4867743" propagationSpeedInKmPerSecond="200000.0" isUp="true">
+		</link>
+		<link id="4867745" originNodeId="4867665" destinationNodeId="4867671" capacity="320.0" lengthInKm="1000.0" bidirectionalPairId="4867746" propagationSpeedInKmPerSecond="200000.0" isUp="true">
+		</link>
+		<link id="4867746" originNodeId="4867671" destinationNodeId="4867665" capacity="320.0" lengthInKm="1000.0" bidirectionalPairId="4867745" propagationSpeedInKmPerSecond="200000.0" isUp="true">
+		</link>
+		<link id="4867747" originNodeId="4867666" destinationNodeId="4867672" capacity="320.0" lengthInKm="900.0" bidirectionalPairId="4867748" propagationSpeedInKmPerSecond="200000.0" isUp="true">
+		</link>
+		<link id="4867748" originNodeId="4867672" destinationNodeId="4867666" capacity="320.0" lengthInKm="900.0" bidirectionalPairId="4867747" propagationSpeedInKmPerSecond="200000.0" isUp="true">
+		</link>
+		<link id="4867749" originNodeId="4867667" destinationNodeId="4867668" capacity="320.0" lengthInKm="1200.0" bidirectionalPairId="4867750" propagationSpeedInKmPerSecond="200000.0" isUp="true">
+		</link>
+		<link id="4867750" originNodeId="4867668" destinationNodeId="4867667" capacity="320.0" lengthInKm="1200.0" bidirectionalPairId="4867749" propagationSpeedInKmPerSecond="200000.0" isUp="true">
+		</link>
+		<link id="4867751" originNodeId="4867668" destinationNodeId="4867669" capacity="320.0" lengthInKm="700.0" bidirectionalPairId="4867752" propagationSpeedInKmPerSecond="200000.0" isUp="true">
+		</link>
+		<link id="4867752" originNodeId="4867669" destinationNodeId="4867668" capacity="320.0" lengthInKm="700.0" bidirectionalPairId="4867751" propagationSpeedInKmPerSecond="200000.0" isUp="true">
+		</link>
+		<link id="4867753" originNodeId="4867669" destinationNodeId="4867670" capacity="320.0" lengthInKm="300.0" bidirectionalPairId="4867754" propagationSpeedInKmPerSecond="200000.0" isUp="true">
+		</link>
+		<link id="4867754" originNodeId="4867670" destinationNodeId="4867669" capacity="320.0" lengthInKm="300.0" bidirectionalPairId="4867753" propagationSpeedInKmPerSecond="200000.0" isUp="true">
+		</link>
+		<link id="4867755" originNodeId="4867670" destinationNodeId="4867671" capacity="320.0" lengthInKm="600.0" bidirectionalPairId="4867756" propagationSpeedInKmPerSecond="200000.0" isUp="true">
+		</link>
+		<link id="4867756" originNodeId="4867671" destinationNodeId="4867670" capacity="320.0" lengthInKm="600.0" bidirectionalPairId="4867755" propagationSpeedInKmPerSecond="200000.0" isUp="true">
+		</link>
+		<link id="4867757" originNodeId="4867671" destinationNodeId="4867672" capacity="320.0" lengthInKm="900.0" bidirectionalPairId="4867758" propagationSpeedInKmPerSecond="200000.0" isUp="true">
+		</link>
+		<link id="4867758" originNodeId="4867672" destinationNodeId="4867671" capacity="320.0" lengthInKm="900.0" bidirectionalPairId="4867757" propagationSpeedInKmPerSecond="200000.0" isUp="true">
+		</link>
+		<sourceRouting>
+		</sourceRouting>
+	</layer>
+	<layer id="4495" name="Digital" description="" isDefaultLayer="false" linkCapacityUnitsName="" demandTrafficUnitsName="">
+		<sourceRouting>
+		</sourceRouting>
+	</layer>
+	<attribute key="alpha" value="0.2"/>
+	<attribute key="beta" value="17"/>
+	<attribute key="clientBitRateStep" value="100"/>
+	<attribute key="gamma" value="1.2"/>
+	<attribute key="lineFECOverhead" value="25"/>
+	<attribute key="maxSymbolRate" value="50"/>
+	<attribute key="modulationFormats" value="BPSK QPSK 8QAM 16QAM 32QAM 64QAM"/>
+	<attribute key="noiseFigure" value="5"/>
+	<attribute key="spanLength" value="80"/>
+	<attribute key="spectrumSlots" value="320"/>
+	<attribute key="targetLineBER" value="1e-2"/>
+</network>
